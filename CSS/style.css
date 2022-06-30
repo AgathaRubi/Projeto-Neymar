@@ -1,0 +1,165 @@
+#menu-h ul{
+    position: absolute;
+    right: 4%;
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+}
+#menu-h ul li {
+    display: inline;
+
+}
+#menu-h ul li a {
+    border: aliceblue;
+    color: aliceblue;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    border: 1px solid #ffff;
+}
+#menu-h ul li a:hover {
+    background-color: #800000;
+}
+.MenuOndulado {
+    position:absolute ;
+    background-image: url(Imagens/MenuOndulado.png);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position:top center;
+    margin-bottom: 100px;
+    width: 103%;
+    margin: -2%;
+    margin-bottom: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+#ImagemCapa {
+            position:absolute;
+            top: -8%;
+            left: 50px;
+            margin: 0;
+            background-image: url(#ImagemCapa);
+            background-size: 100vh;
+            background-repeat: no-repeat;
+}
+#main1 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h1 {
+    position: absolute;
+    right: 30%;
+    top: 15%;
+    font: normal 30px arial, verdana, serif;
+    color: rgb(255, 255, 255);
+}
+.p1 {
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    font: normal 24px arial, verdana, serif;
+    color: rgb(255, 255, 255);
+}
+#main2 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2 {
+    position: absolute;
+    left: 2%;
+    top: 60%;
+    font: normal 30px arial, verdana, serif;
+    color:black;
+}
+.p2 {
+    position: absolute;
+    top: 67%;
+    left: 7%;
+    font: normal 20px arial, verdana, serif;
+    color:black;
+    line-height: 1.5;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-indent: 50px;
+}
+.p2-2 {
+    position: absolute;
+    top: 93%;
+    left: 7%;
+    font: normal 20px arial, verdana, serif;
+    color:black;
+    line-height: 1.5;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-indent: 50px;
+}
+.p2-3 {
+    position: absolute;
+    top: 119%;
+    left: 7%;
+    font: normal 20px arial, verdana, serif;
+    color:black;
+    line-height: 1.5;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-indent: 50px;
+}
+#main3 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2-2 {
+    position: absolute;
+    right: 6%;
+    top: 50%;
+    font: normal 30px arial, verdana, serif;
+    color:black;
+}
+.p3 {
+    position: absolute;
+    top: 57%;
+    right: 4%;
+    font: normal 20px arial, verdana, serif;
+    color:black;
+    line-height: 1.5;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-indent: 50px;
+}
+.p3-2 {
+    position: absolute;
+    top: 105%;
+    right: 4%;
+    font: normal 20px arial, verdana, serif;
+    color:black;
+    line-height: 1.5;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-indent: 50px;
+}
+.tabela-salario {
+    position:absolute;
+    top: 140%;
+    right: 12%;
+    margin: 0;
+    background-image: url(.tabela-salario);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+}
